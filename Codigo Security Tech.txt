@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link  rel="icon"   href="imagenes/Logo Camara.jpg" type="image/png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecuriTech</title>
+<style>
+body {
+    margin:0;
+    padding:0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #fafafa;
+    }
+.Encabezado{
+    background: url(Imagenes/fondo3.jpeg);
+    height: 100vh;
+    background-size: cover;
+}
+#Nombrepagina{
+
+    text-align: center;
+}
+#Nombrepagina > #texto {
+    line-height: 100vh;
+    text-shadow: 10px 10px 5px #000;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+.contenido
+{
+    margin:auto;
+    width: 90%;
+}
+.catalogo
+{
+    display: inline-block;
+    width: 100%;
+    
+}
+.contenedor
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;    
+}
+.elemento
+{
+    margin:5px;
+    height: 200px;
+    min-width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+.elemento img{
+    margin:5px;
+    height: 225px;
+    border:solid 1px #ccc;
+}
+.contactos
+{
+    display: inline-block;
+    width: 100%;    
+}
+a:link,a:visited{
+	text-decoration:none;
+	color: #000;
+}
+	
+.links
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;    
+}
+.paginas
+{
+    margin:5px;
+    height: 200px;
+    min-width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    #texto{
+        font-size: 25px;
+    }
+}
+</style>
+</head>
+<body>
+    <div class="Encabezado">
+        <div id="Nombrepagina"><span id="texto">Security Tech</span>
+        </div>
+    </div>
+    <div class="contenido">
+<h1 style="text-align:center">
+Quienes Somos </h1>
+        <div style="text-align:justify">
+            Somos una empresa totalmente dedicada a la seguridad empresarial y del hogar, dedicados fielmente a la prevencion de daños, alteraciones e intrusiones a los intereses de los clientes.</p>
+            Historia: Una empresa familiar y heredada donde nuestros antepasados se dedicaron a cercar las tierras de granjeros y personas de alta alcurnia, lo que avanzo a lo que hoy somos y representamos.</p>
+            Mision: Llevar seguridad a cada cliente que adquiera nuestros servicios, dando garantia de la permanencia de este y el soporte y la asistencia pronta en caso de ser necesario.</p>
+            Vision: Conseguir un nivel en el cual mundialmente seamos conocidos por nuestro buen servicio por las empresas mas grandes del mundo.</p>
+            Valores: Desde nuestros antepasados llevamos como valores principales la responsabilidad, integridad, Honestidad, puntualidad en las entregas y la adaptabilidad.</p>
+            Metas: Ser la empresa por excelencia en cuanto a seguridad empresarial y del hogar en Republica Dominicana.</p></p>
+
+            Brindamos servicios como lo son la instalacion completa de cualquier cableado estructurado donde la calidad del cable, los equipos a utilizar e incluso el proposito por el cual esta adquiriendo estos servicios son tomados en cuenta para la mejor terminacion donde nos enfocamos en que principalmente el usuario este satisfecho con nuestro servicio y lo que esta
+            recibiendo.</p>
+            Instalamos gabinetes con todos sus servicios (Switches, routers, accesorios,etc), todo el cableado en base a lo que pide, sea totalmente de interior o de exterior y damos asesoramiento en el cual le ayudamos a decidirse por lo que realmente necesita y se ajusta a su bolsillo.<p>
+            </p>
+            Instalacion de Camaras de videovigilancia, teniendo para ofrecer los mejores equipos del mercado y los mas competentes, brindando garantia en cada uno de nuestros servicios.</p>
+            Controles de acceso, Ponches para empresa, Cercos electricos, lectores biometricos, etc. haciendo de nuestra empresa completa en cuanto a seguridad con base tecnologica.
+
+
+
+
+        </div>
+        <div class="catalogo">
+            <div class="contenedor">
+                <div class="elemento">
+                    <img src="Imagenes/camara.jpg" alt=""></a>
+                    <div class="enlace"><a href="#camaras">Camaras</a></div>
+                </div>
+                <div class="elemento">
+                    
+                        <img src="Imagenes/cerco2.jpg" alt="">
+                        <div class="enlace"><a href="#cerco">Cerco Electrico</a></div>
+                </div>
+                <div class="elemento">
+                    
+                        <img src="Imagenes/cerradura2.jpg" alt="">
+                        <div class="enlace"><a href="#cerradura">Cerraduras</a></div>
+                </div>
+                <div class="elemento">
+                    
+                        <img src="Imagenes/cableado.jpg" alt="">
+                        <div class="enlace"><a href="#cableado">Cableado Estructurado</a></div>
+                </div>
+                <div class="elemento">
+                    
+                        <img src="Imagenes/biometrico.jpg" alt="">
+                        <div class="enlace"><a href="#biometrico">Lector Biometrico</a></div>
+                </div>
+            </div>
+        </div>
+        <P>&nbsp;</P>
+        <p>
+            <h3 id="camaras">• Camaras:</h3>
+            La tecnología ColorVu de Hikvision ayuda a los usuarios a proteger a las personas y las propiedades capturando vídeos en alta calidad y a todo color las 24 horas del día los 7 días de la semana con la misma resolución nítida tanto de día como de noche.
+            Si además combina ColorVu con («+») otras tecnologías avanzadas de Hikvision («X»), surgen posibilidades increíbles. ¡En otras palabras, uno más uno es igual a increíble!.
+        </p>
+
+        Así es como funciona «ColorVu+X», ofreciendo un valor inigualable al mercado de la seguridad con más opciones que nunca. Las cámaras equipadas con estas tecnologías ofrecen imágenes nítidas con detalles vívidos para las pruebas de vídeo, una mayor precisión de
+        las alarmas para las amenazas reales a la seguridad y la eficacia de las búsquedas de vídeo, lo que lleva su seguridad más allá de lo que era posible anteriormente. Se presentan productos y soluciones versátiles con un rendimiento optimizado para hacer frente a
+        los problemas de seguridad más comunes en residencias, edificios de oficinas, aparcamientos y muchos más.
+
+        <h3 id="cerco">•Cerco Electrico:</h3>
+        <p></p>Los cercos eléctricos son un sistema de seguridad perimetral que impiden el ingreso de personas ajenas a una propiedad, como viviendas, condominios, lugares de estudio o trabajo, parcelas, predios y otros. Es una barrera física eficiente y también es un elemento disuasivo.</p>
+        El sistema funciona conectado a tierra. Cuando alguien toca el cableado o intenta escalarlo se cierra el circuito a tierra y recibe una descarga electrica que no produce daño, pero si es punzante y efectiva para impedir la invasion del terreno.</p>
+        Electrificador o energizador: es la parte mas importante del Sistema. Se trata de un transformador que recibe la energia (de la red domiciliaria, bateria o paneles solares), le sube el voltaje y le baja el amperaje, pasando corriente continua a pulsaciones
+        de 0.5 segundos con intervalos de un segundo.</p>
+        Consta de dos salidas: Una roja (positivo) y otra de color blanco, verde o negro(toma a tierra).</p>
+        Toma a tierra: es una estaca de fierro o de cobre que se entierra entre 30 cm a 2 m de profundidad.</p>
+        Postes templadores: se ubican en los extremos del sector a cercar.</p>
+        Postes intermedios: se instalan en sectores intermedios, entre los postes templadores. Brindan rigidez al alambre.
+
+
+        <p>
+            <h3 id="cerradura">• Cerraduras:</h3>
+            Cerradura Multi-Biométrica de Reconocimiento Facial y Huella Digital
+        </p>
+        • Reconocimiento de rostros preciso y de alta velocidad en modo 1: N.</p>
+        • Pantalla táctil capacitiva con menú de iconos para operación y conﬁguración.</p>
+        • Sensor de huellas digitales SilkID.</p>
+        • Desbloqueo de alta seguridad por multiveriﬁcación: Rostro + Huella digital.</p>
+        • Compatible con baterías de litio recargables.</p>
+        • Diseño de manija reversible para adaptarse a las direcciones de apertura de la puerta.</p>
+        • Terminales externas para obtener energía de respaldo de una batería de 9V.</p>
+        • Alarma de batería insuﬁciente y operaciones no permitidas.</p>
+        • Modo normalmente abierto.</p>
+        • Módulo MIFARE opcional.</p>
+        </p>
+
+        <p>
+            <h3 id="cableado">• Cableado Estructurado:</h3>
+            Realizamos la instalacion completa de cualquier cableado estructurado donde la calidad del cable, los equipos a utilizar e incluso el proposito por el cual esta adquiriendo estos servicios son tomados en cuenta para la mejor terminacion donde nos enfocamos en que principalmente el usuario este satisfecho con nuestro servicio y lo que esta 
+            recibiendo.</p>
+        Instalamos gabinetes con todos sus servicios (Switches, routers, accesorios,etc), todo el cableado en base a lo que pide, sea totalmente de interior o de exterior y damos asesoramiento en el cual le ayudamos a decidirse por lo que realmente necesita y se ajusta a su bolsillo.
+
+        </p>
+        <p>
+            <h3 id="biometrico">• Lector Biometrico:</h3>
+            Elite Pass es un terminal de reconocimiento facial altamente eficiente y resistente a la corrosión que adopta un algoritmo de aprendizaje profundo que se puede instalar y es compatible con productos de entrada como barreras de aleta, barreras de giro, torniquetes de trípode de ZKTeco y los terceros para ser utilizados en exteriores y ambientes interiores con diferentes
+            niveles de salinidad y humedad como áreas industriales y costeras.
+        </p>
+
+        Con un soporte de giro e inclinación provisto, los usuarios pueden ajustar la dirección y el ángulo de este terminal biométrico según lo deseen para autenticar a los usuarios de torniquetes de diferente altura dentro de los 3 metros de distancia del punto de acceso, lo que debe impulsar su sistema de seguridad existente.</p>
+
+        Elite Pass está equipado con una cámara con sensor CMOS starlight de 2MP con función WDR, que permite al terminal reconocer rostros en condiciones de iluminación extremas (de 0.5lux a 50,000lux), y un detector de microondas que detecta con precisión la distancia entre un usuario y el dispositivo. , luego despierta el terminal
+        para comenzar a verificar la identidad del usuario, lo que sin duda le quita presión a su equipo de seguridad.
+        </p>
+
+    </div>
+
+
+    <div class="contactos">
+        <div class="links">
+            <div class="paginas">
+            <a href="https://www.instagram.com/"><img src="Imagenes/instagram2.jfif" alt=""></a>
+            <div>Siguenos en Instagram</a></div>
+            
+            <div class="paginas">
+             <a href="https://www.facebook.com/#!/"><img src="Imagenes/facebook.jfif" alt=""></a>
+           <div>Siguenos en Facebook</a></div>
+
+             <div class="paginas">
+             <a href="https://twitter.com/"><img src="Imagenes/twitter2 finished.jfif" alt=""></a>
+               <div>Siguenos en Twitter</a></div>
+          
+            </div>
+        </div>
+    </div>
+</body>
+</html>
